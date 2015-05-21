@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.sample.cast.refplayer.mediaplayer;
+package dak42.cast.ps.mediaplayer;
 
 import com.google.android.gms.cast.ApplicationMetadata;
 import com.google.android.gms.cast.CastStatusCodes;
@@ -24,10 +24,10 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.libraries.cast.companionlibrary.cast.VideoCastManager;
 import com.google.android.libraries.cast.companionlibrary.cast.callbacks.VideoCastConsumerImpl;
 import com.google.android.libraries.cast.companionlibrary.widgets.MiniController;
-import com.google.sample.cast.refplayer.CastApplication;
+import dak42.cast.ps.CastApplication;
 import com.google.sample.cast.refplayer.R;
-import com.google.sample.cast.refplayer.settings.CastPreference;
-import com.google.sample.cast.refplayer.utils.Utils;
+import dak42.cast.ps.settings.CastPreference;
+import dak42.cast.ps.utils.Utils;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

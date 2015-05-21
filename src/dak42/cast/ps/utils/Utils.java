@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.sample.cast.refplayer.utils;
+package dak42.cast.ps.utils;
 
 import com.google.android.libraries.cast.companionlibrary.cast.exceptions.CastException;
 import com.google.android.libraries.cast.companionlibrary.cast.exceptions.NoConnectionException;
@@ -148,7 +148,7 @@ public class Utils {
             resourceId = R.string.failed_to_perform_action;
         }
         if (resourceId > 0) {
-            com.google.sample.cast.refplayer.utils.Utils.showOopsDialog(context, resourceId);
+            dak42.cast.ps.utils.Utils.showOopsDialog(context, resourceId);
         }
     }
 

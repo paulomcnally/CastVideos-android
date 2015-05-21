@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.sample.cast.refplayer.browser;
+package dak42.cast.ps.browser;
 
 import com.google.android.gms.cast.MediaInfo;
 

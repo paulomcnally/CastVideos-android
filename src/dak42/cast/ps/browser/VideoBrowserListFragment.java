@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.sample.cast.refplayer.browser;
+package dak42.cast.ps.browser;
 
 import com.google.android.gms.cast.MediaInfo;
 import com.google.android.libraries.cast.companionlibrary.utils.Utils;
 import com.google.sample.cast.refplayer.R;
-import com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity;
+import dak42.cast.ps.mediaplayer.LocalPlayerActivity;
 
 import android.content.Intent;
 import android.os.Bundle;

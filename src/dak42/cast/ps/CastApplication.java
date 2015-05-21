@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.sample.cast.refplayer;
+package dak42.cast.ps;
 
 import com.google.android.libraries.cast.companionlibrary.cast.VideoCastManager;
+import com.google.sample.cast.refplayer.R;
 
 import android.app.Application;
 

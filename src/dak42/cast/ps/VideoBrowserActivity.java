@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.sample.cast.refplayer;
+package dak42.cast.ps;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.libraries.cast.companionlibrary.cast.VideoCastManager;
@@ -22,7 +22,9 @@ import com.google.android.libraries.cast.companionlibrary.cast.callbacks.VideoCa
 import com.google.android.libraries.cast.companionlibrary.cast.callbacks.VideoCastConsumerImpl;
 import com.google.android.libraries.cast.companionlibrary.utils.Utils;
 import com.google.android.libraries.cast.companionlibrary.widgets.MiniController;
-import com.google.sample.cast.refplayer.settings.CastPreference;
+import com.google.sample.cast.refplayer.R;
+
+import dak42.cast.ps.settings.CastPreference;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -77,13 +79,13 @@ public class VideoBrowserActivity extends ActionBarActivity {
             @Override
             public void onConnectionSuspended(int cause) {
                 Log.d(TAG, "onConnectionSuspended() was called with cause: " + cause);
-                com.google.sample.cast.refplayer.utils.Utils.
+                dak42.cast.ps.utils.Utils.
                         showToast(VideoBrowserActivity.this, R.string.connection_temp_lost);
             }
 
             @Override
             public void onConnectivityRecovered() {
-                com.google.sample.cast.refplayer.utils.Utils.
+                dak42.cast.ps.utils.Utils.
                         showToast(VideoBrowserActivity.this, R.string.connection_recovered);
             }
 
